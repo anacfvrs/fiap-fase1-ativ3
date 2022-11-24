@@ -1,0 +1,108 @@
+*{  
+    scroll-behavior: smooth;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary: #E3AD1C;
+    --secondary: #2B1975;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #050336;
+  }
+  
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../image/hollywood_casa_dos_famosos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+
+.heading h1 {
+	font-size: 50px;
+    font-weight: 900;
+}
+
+.information {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin: auto;
+}
+
+.about, .about2 {
+  width: 50%;
+  padding: 2em;
+}
+
+.information h1 {
+	  color: #E3AD1C;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.information p {
+	padding: 1em;
+  text-align: justify;
+}
+
+ul {
+  text-align: center;
+}
+
+.list h1 {
+  color: #2B1975;
+  font-size: 1em;
+  text-transform: none;
+}
+
+.footer2 {
+  background-color: #E3AD1C;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer2 a{
+  width: 100%;
+	text-decoration: none;
+	color: #050336;
+	font-size: 0.7em;
+}
+
+.footer2 a:hover{
+  font-weight: bold;
+	text-decoration: underline;
+  text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.footer2 p {
+	color: #050336;
+	font-size: 0.6em;
+  letter-spacing: 2px;
+}
+  
+.footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
